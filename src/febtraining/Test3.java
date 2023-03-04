@@ -54,18 +54,11 @@ public class Test3 {
 		System.out.println(m);
 		
 		
-		
-		
-		
 //		short s1 = 128;
 //		int i1 = 128;
 //		long l = 128;
-//		
 		
-		
-		
-		
-		
+		//Holi
 		
 	}
 }

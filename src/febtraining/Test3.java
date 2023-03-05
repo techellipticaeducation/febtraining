@@ -53,6 +53,8 @@ public class Test3 {
 		int m = 0XA1; // Hexadecimal
 		System.out.println(m);
 		
+		long k1 = 1231_7238_9836_72l;
+		System.out.println(k1);
 		
 //		short s1 = 128;
 //		int i1 = 128;

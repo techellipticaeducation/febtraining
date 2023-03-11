@@ -1,5 +1,6 @@
 package febtraining;
 
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 public class FloatingTypeDemo {
@@ -44,7 +45,13 @@ public class FloatingTypeDemo {
 		// unicode - 2 byte
 		
 		// Unicode 2 byte , 16 
-//		String sy  = "\u00AB";
+//		PrintWriter writer = new PrintWriter(System.out, true);
+		char a = '\u0920';
+		System.out.println(a);
+//		writer.println(a);
+		
+//		String sy  = "\u0919";
+//		
 //		byte[] charset = sy.getBytes("UTF-8");
 //		String updated = new String(charset,"UTF-8");
 //		System.out.println(updated);

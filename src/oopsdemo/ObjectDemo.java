@@ -8,11 +8,20 @@ public class ObjectDemo {
 //		Footballer fb = new Footballer();
 //		fb.name = "Messi";
 		
+		// Class level
 		
-		Footballer a1 = new Footballer();
+		System.out.println(Human.country);
+		
+		
+		Human a1 = new Human();
 		a1.name = "Ashwini";
 		a1.height = 156;
 		a1.age = 30;
+		
+		a1 = null;
+		System.out.println(a1.name);
+		
+		
 		
 		Human a2 = new Human();
 		a2.name = "Harshad";
@@ -20,6 +29,9 @@ public class ObjectDemo {
 		a2.age = 32;
 		a2.weight = 60.0;
 
+		
+		a1.country = "India";
+		
 		a1.speak("Hello Everyone");
 		a2.speak("Hey Hi");
 		a1.speak("Hows java session going on");
@@ -36,6 +48,15 @@ public class ObjectDemo {
 		System.out.println("After gym " + a2.weight);
 		
 		System.out.println(a1.weight);
+		a2.tellMeYourCountry();
+		
+		
+		a1.counter = 10;
+		a1.counter = a1.counter + 5;
+		System.out.println(a1.counter);
+		System.out.println(a2.counter);
+		
+		
 	}
 	
 	

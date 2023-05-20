@@ -17,7 +17,6 @@ public class MethodOverloading {
 
 class Calculator{
 	
-	
 	// Compile time polymorhsm
 	// can create same name method but with different number of param and  type of param
 	// method overloading return type not play any role

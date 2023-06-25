@@ -19,7 +19,7 @@ public static void main(String[] args) {
 //	System.setProperty("webdriver.chrome.driver", 
 //			"C:\\ProgramData\\Learning\\workspace\\febtestometerjava\\seleniumproject\\drivers\\chromedriver.exe"); 
 	
-	WebDriverManager.edgedriver().setup();
+	//WebDriverManager.edgedriver().setup();
 	
 //	ChromeOptions options = new ChromeOptions();
 //	options.addArguments("--remote-allow-origins=*");
